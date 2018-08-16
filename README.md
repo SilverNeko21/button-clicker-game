@@ -18,7 +18,7 @@ Create a button clicker game that increments a count on the screen after the use
 Be as creative as you want! :D
 
 ## Resources
-+ Onclick Event Handler - http://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onclick
++ Onclick Event Handler 
 
 ## Stretch Goals
 Students should be able to complete the basic game.
