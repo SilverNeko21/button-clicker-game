@@ -16,6 +16,7 @@ html, body{
     border: 2px solid black;
 }
 
+
 #base{
     margin: auto;
     margin-top: 10%;
@@ -53,6 +54,8 @@ html, body{
     position: relative;
     height: 40%;
     width: 20%;
+    margin-left: 2%;
+    transform: rotate(340deg);
 }
 
 #sagiri2{
