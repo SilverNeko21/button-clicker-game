@@ -6,29 +6,58 @@ html, body{
     background-image: url("https://pbs.twimg.com/media/C-t213UUAAA_Pdt.jpg");
     background-repeat: no-repeat, repeat;
     background-size: cover;
+    background-position: center;
 }
 
 #title{
     text-align: center;
-    background-color: aqua;  
-    height: 5%;
+    background-color: aqua;
+    margin: auto;
+    border: 2px solid black;
 }
 
 #base{
     margin: auto;
-    margin-top: 5%;
+    margin-top: 10%;
+    height: 50%;
+    width: 100%;
     text-align: center;
 }
 
 #Number{
+    text-align: center;
     margin: auto;
+    padding: auto;
+    margin-top: 2%;
     width: 15%;
     height: 5%;
     background-color: aqua;
+    border: 2px solid black;
 }
 
 #button{
     position: relative;
-    height: 30%;
-    width: 16%;
+    height: 70%;
+    width: 20%;
+    border: 2px solid black;
 }
+
+#sagiri{
+    position: relative;
+    height: 100%;
+    width:100%;
+    margin: auto;
+}
+/*
+#pop1{
+    position: relative;
+    height: 40%;
+    width: 20%;
+}
+
+#sagiri2{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+*/
