@@ -11,16 +11,14 @@ html, body{
 
 #title{
     text-align: center;
-    background-color: aqua;
+    background-image: linear-gradient(aqua, lightblue, snow);
     margin: auto;
     border: 2px solid black;
 }
 
-
 #base{
     margin: auto;
-    margin-top: 10%;
-    height: 50%;
+    height: 30%;
     width: 100%;
     text-align: center;
 }
@@ -28,17 +26,15 @@ html, body{
 #Number{
     text-align: center;
     margin: auto;
-    padding: auto;
-    margin-top: 2%;
     width: 15%;
-    height: 5%;
+    height: 20%;
     background-color: aqua;
     border: 2px solid black;
 }
 
 #button{
     position: relative;
-    height: 70%;
+    height: 100%;
     width: 20%;
     border: 2px solid black;
 }
@@ -49,18 +45,33 @@ html, body{
     width:100%;
     margin: auto;
 }
-/*
+
 #pop1{
     position: relative;
-    height: 40%;
+    height: 100%;
     width: 20%;
-    margin-left: 2%;
+    left: 5%;
     transform: rotate(340deg);
 }
 
-#sagiri2{
+.sagiri2{
     position: relative;
     height: 100%;
     width: 100%;
 }
-*/
+
+#flex{
+    position: relative;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+}
+
+#pop2{
+    position: relative;
+    height: 100%;
+    width: 20%;
+    transform: rotate(20deg);
+    right: 5%;
+}
