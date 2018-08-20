@@ -1,4 +1,3 @@
-
 var p ;
 var score = 0;
 
