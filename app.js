@@ -1,6 +1,17 @@
 var p = ["<audio autoplay> <source src='Audio/Sun and Moon Rival Gladion Remix.mp3' type='audio/mpeg'> </audio>", "<audio autoplay> <source src='Audio/Blend W (320  kbps) (ytformp3.com).mp3' type='audio/mpeg'> </audio>", "<audio autoplay> <source src='Audio/オーバーロードIII OP  Overlord Season 3 Opening Full『MYTH  ROID - VORACITY』(ENG SUB).mp3'> </audio>", "<audio autoplay> <source src='Audio/How Not to Summon a Demon Lord - Ending (HD).mp3' type='audio/mpeg'> </audio>"];
 var score = 0;
 
+document.getElementById("start").addEventListener("click", start);
+
+
+function start(){
+    document.getElementById("game").style.display = "block";
+    document.getElementById("mainScreen").style.display = "none";
+}
+
+
+
+
 document.getElementById("button").addEventListener("click", increments);
 
 

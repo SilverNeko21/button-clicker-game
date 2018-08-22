@@ -10,6 +10,31 @@ html, body{
     overflow: hidden;
 }
 
+#game{
+    display: none;
+}
+
+#start{
+    display: block;
+    width: 10%;
+    height: 5%;
+    text-align: center;
+}
+
+#mainScreen{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+#ooga{
+    text-align: center;
+    border: 2px solid black;
+    background-image: linear-gradient(aqua, lightblue, snow); 
+}
+
 #title{
     text-align: center;
     background-image: linear-gradient(aqua, lightblue, snow);
